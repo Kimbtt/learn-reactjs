@@ -29,7 +29,7 @@ function TodoForm(props) {
 
     return (
         <form onSubmit={form.handleSubmit(handleSubmit)}>
-            <InputField name="title" lable="Todo" form={form}/>
+            {/*<InputField name="title" lable="Todo" form={form}/>*/}
         </form>
     );
 }

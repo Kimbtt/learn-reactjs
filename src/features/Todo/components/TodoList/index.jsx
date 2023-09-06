@@ -28,7 +28,7 @@ function TodoList({ todoList, onTodoClick }) {
           completed : todo.status === "completed"})}
           onClick={() => handleTodoClick(todo, index)}
         >
-          {todo.title}
+          {/*{todo.title}*/}
         </li>
 
       ))}
