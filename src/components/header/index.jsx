@@ -15,6 +15,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+import Register from "../../features/Auth/component/Register";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -75,8 +76,7 @@ export default function ButtonAppBar() {
             <DialogTitle id="form-dialog-title">Subscribe</DialogTitle>
             <DialogContent>
                 <DialogContentText>
-                    To subscribe to this website, please enter your email address here. We will send updates
-                    occasionally.
+                    <Register></Register>
                 </DialogContentText>
                 {/*<TextField*/}
                 {/*    autoFocus*/}
